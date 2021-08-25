@@ -1,0 +1,11 @@
+name: TTest
+version: '${project.version}'
+main: me.jason.testtt.main.Main
+api-version: 1.17
+authors: [ Jason ]
+description: This is a Test
+commands:
+  free:
+    description: gives free stuff if has permmision
+    usage: /<command>
+    aliases: [givefree,freestuff]
